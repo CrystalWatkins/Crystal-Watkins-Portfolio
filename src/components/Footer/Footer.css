@@ -1,0 +1,8 @@
+Footer {
+    background-color: #717479;
+    position: sticky;
+    color: white;
+    text-align: center;
+    border-top: 3px solid lightgrey;
+    height: 50px
+}

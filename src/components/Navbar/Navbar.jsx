@@ -1,12 +1,21 @@
 import React from 'react';
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import "./Navbar.css"
 
 
 const NavbarPage = () => {
     return (
         <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">Crystal's Portfolio</Navbar.Brand>
+        <Navbar.Brand href="#home">Crystal's Portfolio
+        <img
+        src="../../../public/favicon.ico"
+        width="30"
+        height="30"
+        className="d-inline-block align-top"
+        alt="Crystal logo"
+      />
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">

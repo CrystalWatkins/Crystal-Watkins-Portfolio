@@ -3,8 +3,8 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <div className="row mt-5">
-        <div className="jumbotron">
+      <div className="row">
+        <div className=" col-sm-12 jumbotron">
           <h1 class="contact">Contact</h1>
           <hr class="my-4" />
           <form>

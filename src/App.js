@@ -1,9 +1,10 @@
 import React from "react";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 import { Route, Switch, Redirect } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/" component={About}></Route>
         </Switch>
       </div>
+      <Footer />
     </div>
   );
 };

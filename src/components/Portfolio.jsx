@@ -11,11 +11,13 @@ const Portfolio = () => {
         <div class="row">
           <div class="col-sm-6">
             <Figure>
-              <img
+              <Figure.Image
                 id="portfolio-pic"
-                src="./Assets/Images/DonenDusted.png"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/DonenDusted.png?raw=true"
                 class="rounded float-left"
                 alt="Done n Dusted"
+                height={150}
+                weight={150}
               />
               <figcaption>Done n Dusted</figcaption>
             </Figure>
@@ -23,11 +25,13 @@ const Portfolio = () => {
           </div>
           <div class="col-sm-6">
             <Figure>
-              <img
+              <Figure.Image
                 id="portfolio-pic"
-                src="./Assets/Images/aboutme1.png"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/aboutme1.png?raw=true"
                 class="rounded float-right"
                 alt="Profile Page"
+                height={150}
+                weight={150}
               />
               <figcaption>Profile Page</figcaption>
             </Figure>
@@ -38,11 +42,13 @@ const Portfolio = () => {
         <div class="row">
           <div class="col-sm-6">
             <Figure>
-              <img
+              <Figure.Image
                 id="portfolio-pic"
-                src="./Assets/Images/EmployeeMngmt.png"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/EmployeeMngmt.png?raw=true"
                 class="rounded float-left"
                 alt="Employee Management"
+                height={150}
+                weight={150}
               />
               <figcaption>Employee Management</figcaption>
             </Figure>
@@ -50,11 +56,13 @@ const Portfolio = () => {
           </div>
           <div class="col-sm-6">
             <Figure>
-              <img
+              <Figure.Image
                 id="portfolio-pic"
-                src="./Assets/Images/notetaker.png"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/notetaker.png?raw=true"
                 class="rounded float-right"
                 alt="Note Taker"
+                height={150}
+                weight={150}
               />
               <figcaption>Note Taker</figcaption>
             </Figure>
@@ -67,11 +75,13 @@ const Portfolio = () => {
         <div class="row">
           <div class="col-sm-6">
             <Figure>
-              <img
+              <Figure.Image
                 id="portfolio-pic"
-                src="./Assets/Images/readme.png"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/readme.png?raw=true"
                 class="rounded float-left"
                 alt="Read Me Generator"
+                height={150}
+                weight={150}
               />
               <figcaption>Read Me Generator</figcaption>
             </Figure>
@@ -81,11 +91,13 @@ const Portfolio = () => {
           </div>
           <div class="col-sm-6">
             <Figure>
-              <img
+              <Figure.Image
                 id="portfolio-pic"
-                src="./Assets/Images/mysqlemployee.png"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/mysqlemployee.png?raw=true"
                 class="rounded float-right"
                 alt="Employee Tracker"
+                height={150}
+                weight={150}
               />
               <figcaption>Employee Tracker</figcaption>
             </Figure>
@@ -97,11 +109,13 @@ const Portfolio = () => {
         <div class="row">
           <div class="col-sm-6">
             <Figure>
-              <img
+              <Figure.Image
                 id="portfolio-pic"
-                src="./Assets/Images/Project1.png"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/Project1.png?raw=true"
                 class="rounded float-left"
                 alt="Project One"
+                height={150}
+                weight={150}
               />
               <figcaption>Project One- Destination Staycation</figcaption>
             </Figure>
@@ -111,11 +125,13 @@ const Portfolio = () => {
           </div>
           <div class="col-sm-6">
             <Figure>
-              <img
+              <Figure.Image
                 id="portfolio-pic"
-                src="./Assets/Images/weather.png"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/weather.png?raw=true"
                 class="rounded float-right"
                 alt="Third Party Weather App"
+                height={150}
+                weight={150}
               />
               <figcaption>Third Party Weather API Webpage</figcaption>
             </Figure>
@@ -127,11 +143,13 @@ const Portfolio = () => {
         <div class="row">
           <div class="col-sm-6">
             <Figure>
-              <img
+              <Figure.Image
                 id="portfolio-pic"
-                src="./Assets/Images/workDay.png"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/workDay.png?raw=true"
                 class="rounded float-left"
                 alt="Work Day Scheduler"
+                height={150}
+                weight={150}
               />
               <figcaption>Work Day Scheduler</figcaption>
             </Figure>
@@ -141,11 +159,13 @@ const Portfolio = () => {
           </div>
           <div class="col-sm-6">
             <Figure>
-              <img
+              <Figure.Image
                 id="portfolio-pic"
-                src="./Assets/Images/codingQuiz.png"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/codingQuiz.png?raw=true"
                 class="rounded float-right"
                 alt="Web Api Quiz Page"
+                height={150}
+                weight={150}
               />
               <figcaption>Web Api Quiz Page</figcaption>
             </Figure>
@@ -157,11 +177,13 @@ const Portfolio = () => {
         <div class="row">
           <div class="col-sm-6">
             <Figure>
-              <img
+              <Figure.Image
                 id="portfolio-pic"
-                src="./Assets/Images/passwordGenerator.png"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/passwordGenerator.png?raw=true"
                 class="rounded float-left"
                 alt="Password Generator"
+                height={150}
+                weight={150}
               />
               <figcaption>Password Generator</figcaption>
               <a href="https://crystalwatkins.github.io/gt-hw-js-password-generator/">
@@ -171,11 +193,13 @@ const Portfolio = () => {
           </div>
           <div class="col-sm-6">
             <Figure>
-              <img
+              <Figure.Image
                 id="portfolio-pic"
-                src="./Assets/Images/semantics.png"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/semantics.png?raw=true"
                 class="rounded float-right"
                 alt="Semantic Tags"
+                height={150}
+                weight={150}
               />
               <figcaption>Using Semantic Tags in HTML</figcaption>
               <a href="https://crystalwatkins.github.io/gt-semantic-html-homework-01/">
