@@ -1,0 +1,1 @@
+{"version":3,"sources":["Footer.css"],"names":[],"mappings":"AAAA,OACI,wBAAyB,CACzB,uBAAgB,CAAhB,eAAgB,CAChB,UAAY,CACZ,iBAAkB,CAClB,4BAA+B,CAC/B,WACJ","file":"main.be2b6ff4.chunk.css","sourcesContent":["Footer {\n    background-color: #717479;\n    position: sticky;\n    color: white;\n    text-align: center;\n    border-top: 3px solid lightgrey;\n    height: 50px\n}"]}
