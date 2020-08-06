@@ -8,7 +8,7 @@ const Portfolio = () => {
         <h1 class="portfolio">Portfolio</h1>
         <hr class="my-4" />
 
-        {/* <div class="row">
+        <div class="row">
           <div class="col-sm-6">
             <Figure>
               <img
@@ -183,7 +183,7 @@ const Portfolio = () => {
               </a>
             </Figure>
           </div>
-        </div> */}
+        </div> 
       </div>
     </div>
   );

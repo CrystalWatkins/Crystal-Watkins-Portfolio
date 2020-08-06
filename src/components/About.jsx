@@ -11,10 +11,9 @@ const About = () => {
           <div className="col-sm-12">
               <Image
                 id="about-me-pic"
-                src="../../public/Images/about-me.png/171X180"
+                src="../../public/Images/about-me.png"
                 alt="Crystal Watkins"
                 className="float-left"
-                rounded
               />{" "}
             <section>
               <p id="portfolio-text1">
