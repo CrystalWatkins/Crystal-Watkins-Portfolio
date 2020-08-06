@@ -1,19 +1,20 @@
 import React from 'react';
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import "./Navbar.css"
+import "./Navbar.css";
 
 
 const NavbarPage = () => {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar bg="dark" expand="lg">
         <Navbar.Brand href="#home">Crystal's Portfolio
         <img
-        src="../../../public/favicon.ico"
-        width="30"
-        height="30"
+        src="https://raw.githubusercontent.com/CrystalWatkins/Crystal-Watkins-Portfolio/master/public/favicon.ico"
+        width="50"
+        height="50"
         className="d-inline-block align-top"
         alt="Crystal logo"
+        rounded="true"
       />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
