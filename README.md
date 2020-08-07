@@ -17,7 +17,7 @@ This is built using React and React Bottstrap that included an "About Me" page, 
 1. Clone the repo
 2. In the terminal, type "npm start"
 
-[Link to Code](#).
+[Link to Code](https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio).
  
 [Website link for My Portfolio Page](#)
 
@@ -26,15 +26,11 @@ This is built using React and React Bottstrap that included an "About Me" page, 
 
 This simple HTML file uses best practices for accessibility in programming.
 
-[Link to Code](#).
+[Link to Code](https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio).
  
 [Website link for My Portfolio Page](#).
 
-![Web Page 1](#)
-
-![Web Page 2](#)
-
-![Web Page 3](#)
+![Web Page 1](./public/Images/portfoliopage.png)
 
 ## Credits
 
