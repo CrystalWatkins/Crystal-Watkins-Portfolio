@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "58a31a5c4f19526551b108eec228ba7e",
+    "revision": "8c28767b546a8cc7fe91dc3d5f33a5fe",
     "url": "/crystal-watkins-portfolio/index.html"
   },
   {
