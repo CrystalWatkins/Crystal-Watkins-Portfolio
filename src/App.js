@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
-import About from "./components/About";
-import Portfolio from "./components/Portfolio";
-import Contact from "./components/Contact";
+import About from "./components/About/About";
+import Portfolio from "./components/Portfolio/Portfolio";
+import Contact from "./components/Contact/Contact";
 import { Route, Switch, Redirect } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 

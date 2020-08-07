@@ -6,7 +6,7 @@ import "./Navbar.css";
 
 const NavbarPage = () => {
     return (
-        <Navbar bg="dark" expand="lg">
+        <Navbar bg="black" expand="lg">
         <Navbar.Brand href="#home">Crystal's Portfolio
         <img
         src="https://raw.githubusercontent.com/CrystalWatkins/Crystal-Watkins-Portfolio/master/public/favicon.ico"
