@@ -9,7 +9,7 @@ const NavbarPage = () => {
         <Navbar bg="black" expand="lg">
         <Navbar.Brand href="#home">Crystal's Portfolio
         <img
-        src="https://raw.githubusercontent.com/CrystalWatkins/Crystal-Watkins-Portfolio/master/public/favicon.ico"
+        src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/src/components/Navbar/meme.png?raw=true"
         width="50"
         height="50"
         className="d-inline-block align-top"
