@@ -16,9 +16,7 @@ const About = () => {
                   id="about-me-pic"
                   src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/about-me.png?raw=true"
                   alt="Crystal Watkins"
-                  className="float-left"
-                  height={200}
-                  width={200}
+                  fluid
                 />
               </Figure>
             </div>
