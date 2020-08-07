@@ -1,68 +1,78 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Crystal Watkins React Portfolio
 
-## Available Scripts
+## Description 
 
-In the project directory, you can run:
+This is built using React and React Bottstrap that included an "About Me" page, "Portfolio" page, and a "Contact" page. 
 
-### `npm start`
+## Table of Contents
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [MIT License](#mit_license)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repo
+2. In the terminal, type "npm start"
 
-### `npm run build`
+[Link to Code](#).
+ 
+[Website link for My Portfolio Page](#)
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Usage 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This simple HTML file uses best practices for accessibility in programming.
 
-### `npm run eject`
+[Link to Code](#).
+ 
+[Website link for My Portfolio Page](#).
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![Web Page 1](#)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Web Page 2](#)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Web Page 3](#)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Credits
 
-## Learn More
+This was an Interactive Portfolio webpage completed as a homework for the Georgia Tech, 
+FullStack Flex Program.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## MIT_License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Copyright (c) [2020] [Crystal Watkins]
 
-### Code Splitting
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Analyzing the Bundle Size
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
 
-### Making a Progressive Web App
+## Badges
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+![GitHub followers](https://img.shields.io/github/followers/CrystalWatkins?style=social)
 
-### Advanced Configuration
+## Contributing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+Not currently taking any additional contributions at this time.
 
-### Deployment
+## Tests
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+There is no test needed for this project. 
 
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
