@@ -1,6 +1,7 @@
 import React from "react";
 import { Figure } from "react-bootstrap";
 import "./Portfolio.css";
+import Fade from "./Fade";
 
 const Portfolio = () => {
   return (
@@ -19,6 +20,7 @@ const Portfolio = () => {
                 rounded
                 fluid
               />
+              <Fade/>
               <figcaption>Done n Dusted</figcaption>
             </Figure>
             <a href="github.com">Done n Dusted</a>
@@ -26,92 +28,32 @@ const Portfolio = () => {
           <div className="col-sm-6">
             <Figure>
               <Figure.Image
-                 className="portfolio-pic"
-                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/aboutme1.png?raw=true"
-                alt="Profile Page"
-                rounded
-                fluid
-              />
-              <figcaption>Profile Page</figcaption>
-            </Figure>
-            <a href="github.com">Profile Page</a>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-sm-6">
-            <Figure>
-              <Figure.Image
-                 className="portfolio-pic"
+                className="portfolio-pic"
                 src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/EmployeeMngmt.png?raw=true"
-              rounded
+                rounded
                 alt="Employee Management"
                 fluid
               />
+                          <Fade/>
               <figcaption>Employee Management</figcaption>
             </Figure>
             <a href="github.com">Employee Management</a>
           </div>
-          <div className="col-sm-6">
-            <Figure>
-              <Figure.Image
-                 className="portfolio-pic"
-                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/notetaker.png?raw=true"
-                rounded
-                alt="Note Taker"
-                fluid
-              />
-              <figcaption>Note Taker</figcaption>
-            </Figure>
-            <a href="https://github.com/CrystalWatkins/gt-hw-node-express-note-taker">
-              Note Taker
-            </a>
-          </div>
         </div>
 
         <div className="row">
-          <div className="col-sm-6">
+        <div className="col-sm-6">
             <Figure>
               <Figure.Image
-                 className="portfolio-pic"
-                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/readme.png?raw=true"
-                rounded
-                alt="Read Me Generator"
-                fluid
-              />
-              <figcaption>Read Me Generator</figcaption>
-            </Figure>
-            <a href="https://github.com/CrystalWatkins/gt-hw-readme-generator">
-              Read Me Generator
-            </a>
-          </div>
-          <div className="col-sm-6">
-            <Figure>
-              <Figure.Image
-                 className="portfolio-pic"
-                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/mysqlemployee.png?raw=true"
-                rounded
-                alt="Employee Tracker"
-                fluid
-              />
-              <figcaption>Employee Tracker</figcaption>
-            </Figure>
-            <a href="https://github.com/CrystalWatkins/gt-hw-my-sql-employee-tracker">
-              Employee Tracker
-            </a>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-sm-6">
-            <Figure>
-              <Figure.Image
-                 className="portfolio-pic"
+                className="portfolio-pic"
                 src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/Project1.png?raw=true"
                 rounded
                 alt="Project One"
                 fluid
               />
+                          <Fade/>
               <figcaption>Project One- Destination Staycation</figcaption>
+              
             </Figure>
             <a href="https://crystalwatkins.github.io/gt-project-1/.">
               Project One
@@ -120,82 +62,57 @@ const Portfolio = () => {
           <div className="col-sm-6">
             <Figure>
               <Figure.Image
-                 className="portfolio-pic"
-                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/weather.png?raw=true"
+                className="portfolio-pic"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/mysqlemployee.png?raw=true"
                 rounded
-                alt="Third Party Weather App"
+                alt="Employee Tracker"
+                fluid
               />
-              <figcaption>Third Party Weather API Webpage</figcaption>
+                          <Fade/>
+              <figcaption>Employee Tracker</figcaption>
             </Figure>
-            <a href="https://crystalwatkins.github.io/gt-hw-server-side-api-weather-dashboard/">
-              Weather Dashboard
+            <a href="https://github.com/CrystalWatkins/gt-hw-my-sql-employee-tracker">
+              Employee Tracker
             </a>
           </div>
         </div>
+
+
         <div className="row">
           <div className="col-sm-6">
             <Figure>
               <Figure.Image
-                 className="portfolio-pic"
-                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/workDay.png?raw=true"
+                className="portfolio-pic"
+                src="#"
                 rounded
-                alt="Work Day Scheduler"
-                fluid
+                alt="Burger App"
               />
-              <figcaption>Work Day Scheduler</figcaption>
+              <figcaption>Burger App</figcaption>
+              <Fade/>
             </Figure>
-            <a href="https://crystalwatkins.github.io/gt-hw-thirdpartyapi-work-day-scheduler/">
-              Work Day Scheduler
+            <a href="https://evening-ravine-28370.herokuapp.com/">
+              Heroku
             </a>
-          </div>
-          <div className="col-sm-6">
-            <Figure>
-              <Figure.Image
-                 className="portfolio-pic"
-                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/codingQuiz.png?raw=true"
-                rounded
-                alt="Web Api Quiz Page"
-                fluid
-              />
-              <figcaption>Web Api Quiz Page</figcaption>
-            </Figure>
-            <a href="https://crystalwatkins.github.io/gt-hw-web-apis-quiz/">
-              Web Api Quiz
-            </a>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col-sm-6">
-            <Figure>
-              <Figure.Image
-                 className="portfolio-pic"
-                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/passwordGenerator.png?raw=true"
-                rounded
-                alt="Password Generator"
-                fluid
-              />
-              <figcaption>Password Generator</figcaption>
-              <a href="https://crystalwatkins.github.io/gt-hw-js-password-generator/">
-                Password Generator
-              </a>
-            </Figure>
+            <a href= "https://github.com/CrystalWatkins/gt-hw-mvc-burger-app"> Github</a>
           </div>
           <div className="col-sm-6">
             <Figure>
               <Figure.Image
                 className="portfolio-pic"
-                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/semantics.png?raw=true"
+                src="#"
                 rounded
-                alt="Semantic Tags"
-                fluid
+                alt="React User Directory"
               />
-              <figcaption>Using Semantic Tags in HTML</figcaption>
-              <a href="https://crystalwatkins.github.io/gt-semantic-html-homework-01/">
-                Semantics in HTML
-              </a>
+                          <Fade/>
+              <figcaption>React user directory</figcaption>
             </Figure>
+            <a href="https://crystalwatkins.github.io/gt-hw-react-user-directory-app/">
+             Deployed Site
+            </a>
+            <a href= "https://github.com/CrystalWatkins/gt-hw-react-user-directory-app"> Github</a>
           </div>
-        </div> 
+
+        </div>
       </div>
     </div>
   );
