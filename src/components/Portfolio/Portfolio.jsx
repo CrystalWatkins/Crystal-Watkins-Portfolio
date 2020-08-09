@@ -106,6 +106,7 @@ const Portfolio = () => {
               <a href="https://crystalwatkins.github.io/gt-project-1/">
                 Deployed Website
               </a>
+              <br></br>
               <a href="https://github.com/CrystalWatkins/gt-project-1">
                 Github Repo
               </a>
@@ -147,7 +148,7 @@ const Portfolio = () => {
             <Figure>
               <Figure.Image
                 className="portfolio-pic"
-                src="#"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/burger.png?raw=true"
                 rounded
                 alt="Burger App"
               />
@@ -184,7 +185,7 @@ const Portfolio = () => {
             <Figure>
               <Figure.Image
                 className="portfolio-pic"
-                src="#"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/reactportfolio.png?raw=true"
                 rounded
                 alt="React User Directory"
               />
