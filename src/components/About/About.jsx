@@ -32,9 +32,7 @@ const About = () => {
                   information below and previous projects under the Portfolio tab!
                 </p>
                 <p>Cell: 404-276-4570</p>
-                <a className="links" href="crystalwatkins@gmail.com">Email</a>
-                <br></br>
-                <br></br>
+                <p>Email: crystalwatkins428@gmail.com </p>
                 <a className="links" href="https://github.com/CrystalWatkins">
                   Github Portfolio
                 </a>
