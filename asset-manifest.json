@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Crystal-Watkins-Portfolio/static/css/main.f2e2494a.chunk.css",
-    "main.js": "/Crystal-Watkins-Portfolio/static/js/main.d0aad3cf.chunk.js",
-    "main.js.map": "/Crystal-Watkins-Portfolio/static/js/main.d0aad3cf.chunk.js.map",
-    "runtime-main.js": "/Crystal-Watkins-Portfolio/static/js/runtime-main.f9f7aa64.js",
-    "runtime-main.js.map": "/Crystal-Watkins-Portfolio/static/js/runtime-main.f9f7aa64.js.map",
-    "static/css/2.ceb79488.chunk.css": "/Crystal-Watkins-Portfolio/static/css/2.ceb79488.chunk.css",
-    "static/js/2.e8567945.chunk.js": "/Crystal-Watkins-Portfolio/static/js/2.e8567945.chunk.js",
-    "static/js/2.e8567945.chunk.js.map": "/Crystal-Watkins-Portfolio/static/js/2.e8567945.chunk.js.map",
-    "index.html": "/Crystal-Watkins-Portfolio/index.html",
-    "precache-manifest.6509670aa9d068a44da417dbc1f6f567.js": "/Crystal-Watkins-Portfolio/precache-manifest.6509670aa9d068a44da417dbc1f6f567.js",
-    "service-worker.js": "/Crystal-Watkins-Portfolio/service-worker.js",
-    "static/css/2.ceb79488.chunk.css.map": "/Crystal-Watkins-Portfolio/static/css/2.ceb79488.chunk.css.map",
-    "static/css/main.f2e2494a.chunk.css.map": "/Crystal-Watkins-Portfolio/static/css/main.f2e2494a.chunk.css.map",
-    "static/js/2.e8567945.chunk.js.LICENSE.txt": "/Crystal-Watkins-Portfolio/static/js/2.e8567945.chunk.js.LICENSE.txt"
+    "main.css": "/crystal-watkins-portfolio/static/css/main.f2e2494a.chunk.css",
+    "main.js": "/crystal-watkins-portfolio/static/js/main.91356e7c.chunk.js",
+    "main.js.map": "/crystal-watkins-portfolio/static/js/main.91356e7c.chunk.js.map",
+    "runtime-main.js": "/crystal-watkins-portfolio/static/js/runtime-main.3d92ce78.js",
+    "runtime-main.js.map": "/crystal-watkins-portfolio/static/js/runtime-main.3d92ce78.js.map",
+    "static/css/2.ceb79488.chunk.css": "/crystal-watkins-portfolio/static/css/2.ceb79488.chunk.css",
+    "static/js/2.e8567945.chunk.js": "/crystal-watkins-portfolio/static/js/2.e8567945.chunk.js",
+    "static/js/2.e8567945.chunk.js.map": "/crystal-watkins-portfolio/static/js/2.e8567945.chunk.js.map",
+    "index.html": "/crystal-watkins-portfolio/index.html",
+    "precache-manifest.174fe97913152dfb2038f5db9c167b24.js": "/crystal-watkins-portfolio/precache-manifest.174fe97913152dfb2038f5db9c167b24.js",
+    "service-worker.js": "/crystal-watkins-portfolio/service-worker.js",
+    "static/css/2.ceb79488.chunk.css.map": "/crystal-watkins-portfolio/static/css/2.ceb79488.chunk.css.map",
+    "static/css/main.f2e2494a.chunk.css.map": "/crystal-watkins-portfolio/static/css/main.f2e2494a.chunk.css.map",
+    "static/js/2.e8567945.chunk.js.LICENSE.txt": "/crystal-watkins-portfolio/static/js/2.e8567945.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f9f7aa64.js",
+    "static/js/runtime-main.3d92ce78.js",
     "static/css/2.ceb79488.chunk.css",
     "static/js/2.e8567945.chunk.js",
     "static/css/main.f2e2494a.chunk.css",
-    "static/js/main.d0aad3cf.chunk.js"
+    "static/js/main.91356e7c.chunk.js"
   ]
 }
