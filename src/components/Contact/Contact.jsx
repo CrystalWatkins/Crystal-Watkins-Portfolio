@@ -5,38 +5,38 @@ const Contact = () => {
     <div>
       <div className="row">
         <div className=" col-sm-12 jumbotron">
-          <h1 class="contact">Contact</h1>
-          <hr class="my-4" />
+          <h1 className="contact">Contact</h1>
+          <hr className="my-4" />
           <form>
-            <div class="form-group">
+            <div className="form-group">
               <label for="exampleFormControlInput1">Name</label>
             </div>
           </form>
           <input
             type="name"
-            class="form-control"
+            className="form-control"
             id="exampleFormControlInput1"
             placeholder="John Smith"
           ></input>
-          <div class="form-group">
+          <div className="form-group">
             <label for="exampleFormControlInput1">Email</label>
             <input
               type="email"
-              class="form-control"
+              className="form-control"
               id="exampleFormControlInput1"
               placeholder="example@gmail.com"
             />
           </div>
-          <div class="form-group">
+          <div className="form-group">
             <label for="exampleFormControlTextarea1">Message</label>
             <textarea
-              class="form-control"
+              className="form-control"
               id="exampleFormControlTextarea1"
               rows="3"
               placeholder="Message"
             ></textarea>
           </div>
-          <button type="submit" class="btn btn-secondary">
+          <button type="submit" className="btn btn-secondary">
             Submit
           </button>
         </div>
