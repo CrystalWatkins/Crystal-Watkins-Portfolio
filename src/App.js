@@ -3,20 +3,22 @@ import Navbar from "./components/Navbar/Navbar";
 import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
-import { Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
     <div>
-      <Navbar />
       <div className="container-fluid">
+        <Router basename={process.env.PUBLIC_URL}>
+         <Navbar /> 
         <Switch>
-          <Route path="/Portfolio" component={Portfolio}></Route>
-          <Route path="/Contact" component={Contact}></Route>
-          <Route path="/About" component={About}></Route>
+          <Route path="/portfolio" component={Portfolio}></Route>
+          <Route path="/contact" component={Contact}></Route>
+          <Route path="/about" component={About}></Route>
           <Route path="/" component={About}></Route>
         </Switch>
+        </Router>
       </div>
       <Footer />
     </div>
