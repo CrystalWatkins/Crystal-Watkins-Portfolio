@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a3facb77a2a31f969dced606a2cd1cb6",
+    "revision": "6a654a4bb7edd585f3d29083f9b6aaa4",
     "url": "/crystal-watkins-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/crystal-watkins-portfolio/static/css/2.ceb79488.chunk.css"
   },
   {
-    "revision": "856c4ac7d47974c432eb",
+    "revision": "21c8a394549452f9ffea",
     "url": "/crystal-watkins-portfolio/static/css/main.6b438762.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/crystal-watkins-portfolio/static/js/2.c745ad28.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "856c4ac7d47974c432eb",
-    "url": "/crystal-watkins-portfolio/static/js/main.866485ac.chunk.js"
+    "revision": "21c8a394549452f9ffea",
+    "url": "/crystal-watkins-portfolio/static/js/main.b2222e48.chunk.js"
   },
   {
     "revision": "e5f0836553c61354fdf4",
