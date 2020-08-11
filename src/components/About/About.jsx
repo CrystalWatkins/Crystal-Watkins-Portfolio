@@ -28,7 +28,7 @@ const About = () => {
                   having managed teams of up to 140 people. I'm also a former college athlete having 
                   gotten the chance to play tennis at Florida Southern College. I am a hard working, team
                   player who is excited to continue to learn and develop skills in the field. I am fluent in 
-                  React, Javascript, JQuery, Front End Development, MySQL, and MongoDB. Please see all contact 
+                  React, Javascript, Node.js, JQuery, Front End Development, MySQL, and MongoDB. Please see all contact 
                   information below and previous projects under the Portfolio tab!
                 </p>
                 <p>Cell: 404-276-4570</p>
