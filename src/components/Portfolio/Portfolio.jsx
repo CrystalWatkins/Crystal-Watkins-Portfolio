@@ -15,7 +15,7 @@ const Portfolio = () => {
             <Figure>
               <Figure.Image
                 className="portfolio-pic"
-                src="#"
+                src="https://github.com/CrystalWatkins/crystal-watkins-portfolio/blob/master/public/Images/finalproject.png?raw=true"
                 alt="The Borrowers"
                 rounded
                 fluid
@@ -47,13 +47,14 @@ const Portfolio = () => {
             <Figure>
               <Figure.Image
                 className="portfolio-pic"
-                src="#"
+                src="https://github.com/CrystalWatkins/crystal-watkins-portfolio/blob/master/public/Images/googlebooks.png?raw=true"
                 rounded
-                alt="Employee Summary"
+                alt="React Google Books"
                 fluid
               />
               <Fade />
               <figcaption>React Google Books</figcaption>
+              <br/>
               <p>
                 Description: This is built using Full Stack. We are using the Google Books API to be able to search for books by title and then are able to save those books. You are also able to go to the saved page and it will show you all your saved books and allow you to delete any books you do not want saved.{" "}
               </p>
@@ -81,6 +82,7 @@ const Portfolio = () => {
               />
               <Fade />
               <figcaption>Done n Dusted</figcaption>
+              <br/>
               <p>
                 Description: Once you log on to our app, you can upload a
                 receipt from any store. You will then receive an itemized list
@@ -113,6 +115,7 @@ const Portfolio = () => {
               />
               <Fade />
               <figcaption>Object Oriented Program Employee Summary</figcaption>
+              <br/>
               <p>
                 Description: This is a homework requirement for GT Full Stack
                 Flex Program. This node express is designed to create a webpage
@@ -146,6 +149,7 @@ const Portfolio = () => {
               />
               <Fade />
               <figcaption>Remote Island</figcaption>
+              <br/>
               <p>
                 Description: Remote Island allows a user to choose a travel
                 destination from a list of options.  Once a location type is
@@ -182,6 +186,7 @@ const Portfolio = () => {
               />
               <Fade />
               <figcaption> My SQL Employee Tracker</figcaption>
+              <br/>
               <p>
                 Description: This mySQL webpage is designed to create an
                 employee database that combines three different tables to be
@@ -212,6 +217,7 @@ const Portfolio = () => {
                 alt="Burger App"
               />
               <figcaption>Burger App</figcaption>
+              <br/>
               <Fade />
               <p>
                 Description: This is a homework requirement for GT Full Stack
@@ -250,6 +256,7 @@ const Portfolio = () => {
               />
               <Fade />
               <figcaption>React user directory</figcaption>
+              <br/>
               <p>
                 Description:This is a homework requirement for GT Full Stack
                 Flex Program. We are using react to create an employee user
