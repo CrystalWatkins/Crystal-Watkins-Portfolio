@@ -15,6 +15,71 @@ const Portfolio = () => {
             <Figure>
               <Figure.Image
                 className="portfolio-pic"
+                src="#"
+                alt="The Borrowers"
+                rounded
+                fluid
+              />
+              <Fade />
+              <figcaption>The Borrowers</figcaption>
+              <br/>
+              <p>
+              Have extra books lying around and want some new material? Our site allows 
+              you to post your books and borrow from your local neighbors! You post your books 
+              and are able to search through books posted in your area. You then create a social 
+              contract with the other user swapping books. Once communication begins you’re ready 
+              to enjoy your new books after pick up!
+              </p>
+              <p>
+                Technology: MERN stack, full CRUD functionality, Google Books API, jwt and hashing
+                 passwords, Bulma CSS, DBdiagram.io, Sketch, Trello{" "}
+              </p>
+              <a href="https://desolate-caverns-47449.herokuapp.com/">
+                Deployed Website
+              </a>
+              <br></br>
+              <a href="https://github.com/CrystalWatkins/final-project">
+                Github Repo
+              </a>
+            </Figure>
+          </div>
+          <div className="col-sm-6">
+            <Figure>
+              <Figure.Image
+                className="portfolio-pic"
+                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/EmployeeMngmt.png?raw=true"
+                rounded
+                alt="Employee Summary"
+                fluid
+              />
+              <Fade />
+              <figcaption>Object Oriented Program Employee Summary</figcaption>
+              <p>
+                Description: This is a homework requirement for GT Full Stack
+                Flex Program. This node express is designed to create a webpage
+                when you fill out a prompt of questions through the terminal. It
+                will ask you multiple questions that you will answer for who is
+                working in your office and their information. Then it will be
+                created or updated under the Output Folder as team.html where
+                the page is created based on the office input!{" "}
+              </p>
+              <p>Technology: Node express, HTML tests, javascript</p>
+              <a href="https://crystalwatkins.github.io/gt-hw-object-oriented-programming-employee-summary/">
+                Deployed Website
+              </a>
+              <br></br>
+              <a href="https://github.com/CrystalWatkins/gt-hw-object-oriented-programming-employee-summary">
+                Github Repo
+              </a>
+            </Figure>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col-sm-6">
+            <Figure>
+              <Figure.Image
+                className="portfolio-pic"
                 src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/DonenDusted.png?raw=true"
                 alt="Done n Dusted"
                 rounded
