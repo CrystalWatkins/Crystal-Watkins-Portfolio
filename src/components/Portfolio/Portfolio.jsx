@@ -47,28 +47,22 @@ const Portfolio = () => {
             <Figure>
               <Figure.Image
                 className="portfolio-pic"
-                src="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/master/public/Images/EmployeeMngmt.png?raw=true"
+                src="#"
                 rounded
                 alt="Employee Summary"
                 fluid
               />
               <Fade />
-              <figcaption>Object Oriented Program Employee Summary</figcaption>
+              <figcaption>React Google Books</figcaption>
               <p>
-                Description: This is a homework requirement for GT Full Stack
-                Flex Program. This node express is designed to create a webpage
-                when you fill out a prompt of questions through the terminal. It
-                will ask you multiple questions that you will answer for who is
-                working in your office and their information. Then it will be
-                created or updated under the Output Folder as team.html where
-                the page is created based on the office input!{" "}
+                Description: This is built using Full Stack. We are using the Google Books API to be able to search for books by title and then are able to save those books. You are also able to go to the saved page and it will show you all your saved books and allow you to delete any books you do not want saved.{" "}
               </p>
-              <p>Technology: Node express, HTML tests, javascript</p>
-              <a href="https://crystalwatkins.github.io/gt-hw-object-oriented-programming-employee-summary/">
+              <p>Technology: MERN stack, CRUD functionality, and Google Books API</p>
+              <a href="https://gt-hw-react-google-books.herokuapp.com/search">
                 Deployed Website
               </a>
               <br></br>
-              <a href="https://github.com/CrystalWatkins/gt-hw-object-oriented-programming-employee-summary">
+              <a href="https://github.com/CrystalWatkins/gt-hw-google-books">
                 Github Repo
               </a>
             </Figure>
