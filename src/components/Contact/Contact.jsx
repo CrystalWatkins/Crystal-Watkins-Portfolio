@@ -1,6 +1,17 @@
-import React from "react";
+import React, { Component } from "react";
 
-const Contact = () => {
+
+
+class Contact extends Component {
+  state= {
+    information: {},
+  };
+  saveInformation = (e) => {
+    this.setState(e)
+    console.log(e);
+  }
+
+render() {
   return (
     <div>
       <div className="row">
@@ -36,13 +47,13 @@ const Contact = () => {
               placeholder="Message"
             ></textarea>
           </div>
-          <button type="submit" className="btn btn-secondary">
+          <button type="submit" className="btn btn-secondary" onClick={() => this.saveInformation(information)} >
             Submit
           </button>
         </div>
       </div>
     </div>
   );
-};
-
+}
+}
 export default Contact;
