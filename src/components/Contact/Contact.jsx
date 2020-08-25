@@ -1,9 +1,9 @@
 import React, { Component } from "react";
+// import {library} from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 class Contact extends Component {
-  state= {
-    information: {},
-  };
 
 
 render() {
@@ -18,10 +18,8 @@ render() {
 
         <div className="row">
         <div className="col-sm-6">
-        <button type="button" className="btn btn-default btn-lg">
-        <span className="glyphicon glyphicon-envelope" aria-hidden="true"></span> Envelope
-        </button>
-
+        <FontAwesomeIcon icon="check-square" />
+    Your <FontAwesomeIcon icon={faCoffee} /> is hot and ready!
       <br />
 
         <button type="button" className="btn btn-default btn-lg">
