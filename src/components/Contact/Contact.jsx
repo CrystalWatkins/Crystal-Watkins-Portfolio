@@ -1,15 +1,10 @@
 import React, { Component } from "react";
 
-
-
 class Contact extends Component {
   state= {
     information: {},
   };
-  saveInformation = (e) => {
-    this.setState(e)
-    console.log(e);
-  }
+
 
 render() {
   return (
@@ -18,11 +13,45 @@ render() {
         <div className=" col-sm-12 jumbotron">
           <h1 className="contact">Contact</h1>
           <hr className="my-4" />
-          <form>
+
+          
+
+        <div className="row">
+        <div className="col-sm-6">
+        <button type="button" className="btn btn-default btn-lg">
+        <span className="glyphicon glyphicon-envelope" aria-hidden="true"></span> Envelope
+        </button>
+
+      <br />
+
+        <button type="button" className="btn btn-default btn-lg">
+        <span className="glyphicon glyphicon-earphone" aria-hidden="true"></span> Earphone
+        </button>
+
+
+        <br />
+
+        <button type="button" className="btn btn-default btn-lg">
+        <span className="glyphicon glyphicon-#0077b5" aria-hidden="true"></span> LinkedIn
+        </button>
+
+        <br />
+
+        <button type="button" className="btn btn-default btn-lg">
+        <span className="glyphicon glyphicon-#24292e" aria-hidden="true"></span> Github
+        </button>
+
+
+
+
+        </div>
+
+          <div className="col-sm-6">
+            <form>
             <div className="form-group">
-              <label for="exampleFormControlInput1">Name</label>
+              <label htmlFor="exampleFormControlInput1">Name</label>
             </div>
-          </form>
+    
           <input
             type="name"
             className="form-control"
@@ -30,7 +59,7 @@ render() {
             placeholder="John Smith"
           ></input>
           <div className="form-group">
-            <label for="exampleFormControlInput1">Email</label>
+            <label htmlFor="exampleFormControlInput1">Email</label>
             <input
               type="email"
               className="form-control"
@@ -39,7 +68,7 @@ render() {
             />
           </div>
           <div className="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
+            <label htmlFor="exampleFormControlTextarea1">Message</label>
             <textarea
               className="form-control"
               id="exampleFormControlTextarea1"
@@ -47,9 +76,13 @@ render() {
               placeholder="Message"
             ></textarea>
           </div>
-          <button type="submit" className="btn btn-secondary" onClick={() => this.saveInformation(information)} >
+          <button type="submit" className="btn btn-secondary">
             Submit
           </button>
+      </form>
+</div>
+</div>
+
         </div>
       </div>
     </div>
