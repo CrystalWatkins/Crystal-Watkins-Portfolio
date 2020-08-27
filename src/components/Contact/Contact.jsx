@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import axios from "axios";
 
 class Contact extends Component {
 constructor(props) {
@@ -10,23 +9,33 @@ constructor(props) {
     message: "",
   }
 }
+onNameChange(event) {
+  this.setState({name: event.target.value})
+}
+
+onEmailChange(event) {
+  this.setState({email: event.target.value})
+}
+
+onMessageChange(event) {
+  this.setState({message: event.target.value})
+}
 
 handleSubmit(e){
   e.preventDefault();
-  axios({
-    method: "POST", 
-    url:"http://localhost:3002/send", 
-    data:  this.state
-  }).then((response)=>{
-    if (response.data.status === 'success'){
-      alert("Message Sent."); 
-      this.resetForm()
-    }else if(response.data.status === 'fail'){
-      alert("Message failed to send.")
-    }
-  })
+const templateId = "template_id";
+this.sendFeedback(templateId, {message_html: this.state.feedback, from_name: this.state.name, reply_to: this.state.email})
 } 
 
+sendFeedback(templateId, variables) {
+  window.emailjs.send(
+    "gmail", templateId, 
+    variables
+  ).then(res => {
+    console.log("Email successfully sent!")
+  })
+  .catch(err => console.log("Oh well, you failed. Here some thoughts on the error that occured:", err))
+}
   
 render() {
   return (
@@ -86,18 +95,6 @@ render() {
       </div>
     </div>
   );
-}
-
-onNameChange(event) {
-  this.setState({name: event.target.value})
-}
-
-onEmailChange(event) {
-  this.setState({email: event.target.value})
-}
-
-onMessageChange(event) {
-  this.setState({message: event.target.value})
 }
 
 }
