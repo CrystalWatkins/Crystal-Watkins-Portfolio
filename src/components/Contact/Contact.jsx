@@ -1,11 +1,42 @@
 import React, { Component } from "react";
-// import {library} from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 class Contact extends Component {
+constructor(props) {
+  super(props);
+  this.state = {
+    name: "",
+    email: "",
+    message: "",
+  }
+}
+onNameChange(event) {
+  this.setState({name: event.target.value})
+}
 
+onEmailChange(event) {
+  this.setState({email: event.target.value})
+}
 
+onMessageChange(event) {
+  this.setState({message: event.target.value})
+}
+
+handleSubmit(e){
+  e.preventDefault();
+const templateId = "template_id";
+this.sendFeedback(templateId, {message_html: this.state.feedback, from_name: this.state.name, reply_to: this.state.email})
+} 
+
+sendFeedback(templateId, variables) {
+  window.emailjs.send(
+    "gmail", templateId, 
+    variables
+  ).then(res => {
+    console.log("Email successfully sent!")
+  })
+  .catch(err => console.log("Oh well, you failed. Here some thoughts on the error that occured:", err))
+}
+  
 render() {
   return (
     <div>
@@ -13,39 +44,9 @@ render() {
         <div className=" col-sm-12 jumbotron">
           <h1 className="contact">Contact</h1>
           <hr className="my-4" />
-
-          
-
         <div className="row">
-        <div className="col-sm-6">
-        <FontAwesomeIcon icon="check-square" />
-    Your <FontAwesomeIcon icon={faCoffee} /> is hot and ready!
-      <br />
-
-        <button type="button" className="btn btn-default btn-lg">
-        <span className="glyphicon glyphicon-earphone" aria-hidden="true"></span> Earphone
-        </button>
-
-
-        <br />
-
-        <button type="button" className="btn btn-default btn-lg">
-        <span className="glyphicon glyphicon-#0077b5" aria-hidden="true"></span> LinkedIn
-        </button>
-
-        <br />
-
-        <button type="button" className="btn btn-default btn-lg">
-        <span className="glyphicon glyphicon-#24292e" aria-hidden="true"></span> Github
-        </button>
-
-
-
-
-        </div>
-
           <div className="col-sm-6">
-            <form>
+            <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
             <div className="form-group">
               <label htmlFor="exampleFormControlInput1">Name</label>
             </div>
@@ -53,27 +54,36 @@ render() {
           <input
             type="name"
             className="form-control"
+            value={this.state.name}
+            onChange={this.onNameChange.bind(this)}
             id="exampleFormControlInput1"
             placeholder="John Smith"
           ></input>
+          <br />
           <div className="form-group">
             <label htmlFor="exampleFormControlInput1">Email</label>
             <input
               type="email"
               className="form-control"
+              value={this.state.email}
+             onChange={this.onEmailChange.bind(this)}
               id="exampleFormControlInput1"
               placeholder="example@gmail.com"
             />
           </div>
+          <br />
           <div className="form-group">
             <label htmlFor="exampleFormControlTextarea1">Message</label>
             <textarea
               className="form-control"
+              value={this.state.message}
+            onChange={this.onMessageChange.bind(this)}
               id="exampleFormControlTextarea1"
               rows="3"
               placeholder="Message"
             ></textarea>
           </div>
+          <br />
           <button type="submit" className="btn btn-secondary">
             Submit
           </button>
@@ -86,5 +96,6 @@ render() {
     </div>
   );
 }
+
 }
 export default Contact;
