@@ -46,7 +46,7 @@ render() {
           <hr className="my-4" />
         <div className="row">
           <div className="col-sm-6">
-            <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+            <form className="test-mailing" id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
             <div className="form-group">
               <label htmlFor="exampleFormControlInput1">Name</label>
             </div>
