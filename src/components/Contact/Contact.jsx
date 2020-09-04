@@ -1,14 +1,11 @@
 import React, { Component } from "react";
+import axios from "axios";
 
 class Contact extends Component {
-constructor(props) {
-  super(props);
-  this.state = { 
-    feedback: "",
+  state = { 
     name: "",
     email: "",
     message: "",
-  }
 }
 onNameChange(event) {
   this.setState({name: event.target.value})
@@ -22,21 +19,17 @@ onMessageChange(event) {
   this.setState({message: event.target.value})
 }
 
-handleSubmit(e){
+handleSubmit = (e) => {
   e.preventDefault();
-const templateId = "template_id";
-this.sendFeedback(templateId, {message_html: this.state.feedback, from_name: this.state.name, reply_to: this.state.email})
-} 
-
-sendFeedback(templateId, variables) {
-  window.emailjs.send(
-    "gmail", templateId, 
-    variables
-  ).then(res => {
-    console.log("Email successfully sent!")
-  })
-  .catch(err => console.log("Oh well, you failed. Here some thoughts on the error that occured:", err))
+  alert("Hello submitted");
+   const subject = this.state.name;
+  const from = this.state.email;
+  const text = this.state.message;
+  axios.post("https://node-mailer-crystal.herokuapp.com/api/email", {subject: subject, from: from, text: text});
+  this.setState({name: "", email: "", message: ""});
 }
+  
+
   
 render() {
   return (
@@ -47,7 +40,7 @@ render() {
           <hr className="my-4" />
         <div className="row">
           <div className="col-sm-6">
-            <form className="test-mailing" id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+            <form className="test-mailing" id="contact-form" onSubmit={(e) => this.handleSubmit(e)} method="POST">
             <div className="form-group">
               <label htmlFor="exampleFormControlInput1">Name</label>
             </div>
