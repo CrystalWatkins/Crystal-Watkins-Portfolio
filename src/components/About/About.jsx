@@ -37,7 +37,7 @@ const About = () => {
                   Github Portfolio
                 </a>
                 <br></br>
-                <a className="links" href="https://github.com/CrystalWatkins/Crystal-Watkins-Portfolio/blob/contactpage/src/components/About/CrystalWatkinsResume.pdf">
+                <a className="links" href="http://CrystalWatkinsResume.pdf">
                   Resume
                 </a>
                 <br></br>
