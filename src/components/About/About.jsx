@@ -2,6 +2,7 @@ import React from "react";
 import { Figure } from "react-bootstrap";
 import "./About.css";
 
+
 const About = () => {
   return (
     <div className="row mt-5">
@@ -37,7 +38,7 @@ const About = () => {
                   Github Portfolio
                 </a>
                 <br></br>
-                <a className="links" href="http://CrystalWatkinsResume.pdf">
+                <a className="links" href="https://docs.google.com/document/d/1GtaV4HUIka1-Qmk79owiyI_0hQPaIFOEnv7b9U0_XG8/edit?usp=sharing">
                   Resume
                 </a>
                 <br></br>
