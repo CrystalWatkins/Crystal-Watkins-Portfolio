@@ -1,7 +1,7 @@
 import React from "react";
-import { Figure, Card } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 import "./Portfolio.css";
-import Fade from "./Fade";
+
 
 const Portfolio = () => {
   return (
