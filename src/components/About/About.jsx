@@ -32,8 +32,10 @@ const About = () => {
                   React, Javascript, Node.js, JQuery, Front End Development, MySQL, and MongoDB. Please see all contact 
                   information below and previous projects under the Portfolio tab!
                 </p>
-                <p>Cell: 404-276-4570</p>
-                <p>Email: crystalwatkins428@gmail.com </p>
+                <br/>
+                <p className="contactInfo">Cell: 404-276-4570</p>
+                <p className="contactInfo">Email: crystalwatkins428@gmail.com </p>
+                <br/>
                 <a className="links" href="https://github.com/CrystalWatkins">
                   Github Portfolio
                 </a>
