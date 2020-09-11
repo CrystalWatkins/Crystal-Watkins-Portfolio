@@ -26,7 +26,7 @@ const About = () => {
                 <p id="portfolio-text1">
                   My name is Crystal Watkins and I graduated from the full stack flex program 
                   through Georgia Tech as of August 2020. I have a background in sales and logistics,
-                  having managed teams of up to 140 people. I'm a former college athlete having 
+                  having managed teams of up to one hundred and forty people. I'm a former college athlete having 
                   gotten the chance to play tennis at Florida Southern College. I am a hard working, team
                   player who is excited to continue to learn and develop skills in the field. I am fluent in 
                   React, Javascript, Node.js, JQuery, Front End Development, MySQL, and MongoDB. Please see all contact 
