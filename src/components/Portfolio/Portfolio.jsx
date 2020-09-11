@@ -177,17 +177,15 @@ const Portfolio = () => {
                     Description: Remote Island allows a user to choose a travel
                     destination from a list of options.  Once a location type is
                     selected, the user will be presented with their travel
-                    amenities.  Through the use of API’s, the user will view a
-                    livestream video, pulled from a location similar to
-                    location-type they selected.  The user will also be
+                    amenities.  The user will view a livestream video, pulled from 
+                    a location similar to location-type they selected.  The user will also be
                     presented with  a random drink, and optional
                     recipe.  Lastly, the user will be presented with current
                     weather information in relation to location selected.
                   </Card.Text>
                   <Card.Text className="technology">
                     Technology: OpenWeather API and CocktailDB API, HTML, CSS,
-                    Bootstrap for customized styling, and Javascript/jQuery to
-                    create dynamic web page. Images from Freepik. Google fonts.
+                    Bootstrap, and Javascript/jQuery. Images from Freepik.
                   </Card.Text>
                   <Card.Text className="links">
                     <a href="https://crystalwatkins.github.io/gt-project-1/">
@@ -225,7 +223,7 @@ const Portfolio = () => {
                   </Card.Text>
                   <Card.Text className="technology">
                     {" "}
-                    Technology: mySQL and Javascript
+                    Technology: MySQL and JavaScript
                   </Card.Text>
                   <Card.Text className="links">
                     <a href="https://drive.google.com/file/d/1Xy5LKlEEk7d3nxKSND_KHRTo8ax-7uxZ/view">
@@ -256,22 +254,18 @@ const Portfolio = () => {
                   <Card.Text className="description">
                     Description: This is a homework requirement for GT Full
                     Stack Flex Program. This node express burger app and webpage
-                    is designed to utilize server side rendering using MVC. By
-                    using handlebars we were asked to create a directory
-                    structure for this homework which was followed exactly as
-                    asked. When you open the website, you are able to see
-                    burgers pop up. You can then add a burger that you want to
-                    eat. It will then put it in the "Burgers To Be Eaten"
-                    column, where you can choose to "eat" the burger with the
-                    touch of a button and then it will move to the "devoured"
-                    column. From there, you can say you are still hungry and it
+                    is designed to utilize server side rendering using MVC. When you open website,
+                    you can add a burger that you want to
+                    eat. It will put it in the "Burgers To Be Eaten"
+                    column, where you can choose to "eat" the burger and then it will move to the "devoured"
+                    column. You can say you are still hungry and it
                     will move the burger back to the "Burgers To Be Eaten"
                     column!
                   </Card.Text>
                   <Card.Text className="technology">
                     {" "}
-                    Technology: MVC paradigm, javascript, html, heroku,
-                    controllers, config, css{" "}
+                    Technology: MVC Paradigm, JavaScript, HTML, Heroku,
+                    Controllers, cSS{" "}
                   </Card.Text>
                   <Card.Text className="links">
                     <a href="https://evening-ravine-28370.herokuapp.com/">
@@ -299,7 +293,7 @@ const Portfolio = () => {
                     React User Directory
                   </Card.Title>
                   <Card.Text className="description">
-                    Description:This is a homework requirement for GT Full Stack
+                    Description: This is a homework requirement for GT Full Stack
                     Flex Program. We are using react to create an employee user
                     directory. When you click on the name, the list sorts
                     alphabetically by the first name. When you search, you
