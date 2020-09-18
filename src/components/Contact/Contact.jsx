@@ -1,16 +1,36 @@
 import React, { Component } from "react";
-
-
+import axios from "axios";
 
 class Contact extends Component {
-  state= {
-    information: {},
-  };
-  saveInformation = (e) => {
-    this.setState(e)
-    console.log(e);
-  }
+  state = { 
+    name: "",
+    email: "",
+    message: "",
+}
+onNameChange(event) {
+  this.setState({name: event.target.value})
+}
 
+onEmailChange(event) {
+  this.setState({email: event.target.value})
+}
+
+onMessageChange(event) {
+  this.setState({message: event.target.value})
+}
+
+handleSubmit = (e) => {
+  e.preventDefault();
+  alert("Hello submitted");
+   const subject = this.state.name;
+  const from = this.state.email;
+  const text = this.state.message;
+  axios.post("https://node-mailer-crystal.herokuapp.com/api/email", {subject: subject, from: from, text: text});
+  this.setState({name: "", email: "", message: ""});
+}
+  
+
+  
 render() {
   return (
     <div>
@@ -18,30 +38,40 @@ render() {
         <div className=" col-sm-12 jumbotron">
           <h1 className="contact">Contact</h1>
           <hr className="my-4" />
-          <form>
+        <div className="row">
+          <div className="col-sm-6">
+            <form className="test-mailing" id="contact-form" onSubmit={(e) => this.handleSubmit(e)} method="POST">
             <div className="form-group">
               <label htmlFor="exampleFormControlInput1">Name</label>
             </div>
-          </form>
+    
           <input
             type="name"
             className="form-control"
+            value={this.state.name}
+            onChange={this.onNameChange.bind(this)}
             id="exampleFormControlInput1"
             placeholder="John Smith"
           ></input>
+          <br />
           <div className="form-group">
             <label htmlFor="exampleFormControlInput1">Email</label>
             <input
               type="email"
               className="form-control"
+              value={this.state.email}
+             onChange={this.onEmailChange.bind(this)}
               id="exampleFormControlInput1"
               placeholder="example@gmail.com"
             />
           </div>
+          <br />
           <div className="form-group">
             <label htmlFor="exampleFormControlTextarea1">Message</label>
             <textarea
               className="form-control"
+              value={this.state.message}
+            onChange={this.onMessageChange.bind(this)}
               id="exampleFormControlTextarea1"
               rows="3"
               placeholder="Message"
@@ -50,10 +80,15 @@ render() {
           <button type="submit" className="btn btn-secondary" onClick={(information) => this.saveInformation(information)} >
             Submit
           </button>
+      </form>
+</div>
+</div>
+
         </div>
       </div>
     </div>
   );
 }
+
 }
 export default Contact;
