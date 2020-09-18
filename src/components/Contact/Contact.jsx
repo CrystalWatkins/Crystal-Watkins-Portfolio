@@ -20,7 +20,7 @@ render() {
           <hr className="my-4" />
           <form>
             <div className="form-group">
-              <label for="exampleFormControlInput1">Name</label>
+              <label htmlFor="exampleFormControlInput1">Name</label>
             </div>
           </form>
           <input
@@ -30,7 +30,7 @@ render() {
             placeholder="John Smith"
           ></input>
           <div className="form-group">
-            <label for="exampleFormControlInput1">Email</label>
+            <label htmlFor="exampleFormControlInput1">Email</label>
             <input
               type="email"
               className="form-control"
@@ -39,7 +39,7 @@ render() {
             />
           </div>
           <div className="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
+            <label htmlFor="exampleFormControlTextarea1">Message</label>
             <textarea
               className="form-control"
               id="exampleFormControlTextarea1"
@@ -47,7 +47,7 @@ render() {
               placeholder="Message"
             ></textarea>
           </div>
-          <button type="submit" className="btn btn-secondary" onClick={() => this.saveInformation(information)} >
+          <button type="submit" className="btn btn-secondary" onClick={(information) => this.saveInformation(information)} >
             Submit
           </button>
         </div>
